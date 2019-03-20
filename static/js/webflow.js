@@ -31,7 +31,7 @@ t.exports=function(){var t={VERSION:"1.6.0-Webflow"},e={},n=Array.prototype,i=Ob
  * Webflow: Interactions: Init
  */
 Webflow.require('ix').init([
-  {"slug":"pop-up-interactions","name":"Pop Up Interactions","value":{"style":{"display":"none","opacity":0,"scaleX":1.1,"scaleY":1.1,"scaleZ":1},"triggers":[]}},
   {"slug":"subscibe","name":"Subscibe","value":{"style":{},"triggers":[{"type":"click","selector":".pop-up","preserve3d":true,"stepsA":[{"wait":"200ms","display":"flex","opacity":1,"transition":"transform 200 ease 0, opacity 200 ease 0","scaleX":1,"scaleY":1,"scaleZ":1}],"stepsB":[]}]}},
+  {"slug":"pop-up-interactions","name":"Pop Up Interactions","value":{"style":{"display":"none","opacity":0,"scaleX":1.1,"scaleY":1.1,"scaleZ":1},"triggers":[]}},
   {"slug":"close-pop-up","name":"Close Pop Up","value":{"style":{},"triggers":[{"type":"click","selector":".pop-up","preserve3d":true,"stepsA":[{"wait":"200ms","display":"none","opacity":0,"transition":"transform 200 ease 0, opacity 200 ease 0","scaleX":1.1,"scaleY":1.1,"scaleZ":1}],"stepsB":[]}]}}
 ]);
